@@ -28,10 +28,10 @@ root.title('BMI App')
 root.geometry('250x150')
 
 #　Labelウィジェットの生成
-label_1 = tk.Label(root, text='体重')
-label_2 = tk.Label(root, text='kg')
-label_3 = tk.Label(root, text='身長')
-label_4 = tk.Label(root, text='cm')
+label_1 = tk.Label(root, text='身長')
+label_2 = tk.Label(root, text='cm')
+label_3 = tk.Label(root, text='体重')
+label_4 = tk.Label(root, text='kg')
 label_5 = tk.Label(
 	root,
 	text='体重と身長を入力してください。')
